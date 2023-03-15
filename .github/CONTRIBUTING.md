@@ -10,6 +10,19 @@ If you want to contribute, but aren't sure where to start, you can create a [new
 
 If you wish to contribute to add an additional recipes, there are a few requirements to note before submitting a pull request.
 
+## Branch Prefixes
+
+To keep the repository easy to understand and contribute to, branches are labeled accordingly:
+
+| Type      | Prefix                | Description                                                           | 
+| --------- | -------------------   | -------------------------------------------------------------------   |
+| Recipe    | recipe-[branch-name]  | Recipes available [in the docs](https://docs.skale.network/recipes)   | 
+| Starter   | starter-[branch-name] | Starter Projects to help kickstart your development                   |
+| Add       | add-[branch-name]     | Branches for adding new information                                   |
+| Update    | update-[branch-name]  | Branches for updating an existing recipe or starter **not for bugs**  |
+| Fix       | add-[branch-name]     | Branches for fixing bugs or issues  
+
+
 ### What you need
 
 - **Requirements**:
