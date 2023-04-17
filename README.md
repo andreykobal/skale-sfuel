@@ -1,30 +1,30 @@
-# SKALE Recipes
+# SKALE Starter - API Distribution 
 
-This is the main GitHub Repository for the SKALE Network Recipes and Starter projects. 
+## Installation
 
-This project is setup in a way where it is easy to keep projects sepearate from each other by using different branches for different projects. 
+Get started with a local API sFUEL Distribution in less than a minute.
 
-To keep the repository easy to understand and contribute to, branches are labeled accordingly:
+### Clone the Repository Locally
+```console
+git clone -b starter-api-distribution-nodejs https://github.com/skalenetwork/recipes.git
+```
 
-| Type      | Prefix                | Description                                                           | 
-| --------- | -------------------   | -------------------------------------------------------------------   |
-| Recipe    | recipe-[branch-name]  | Recipes available [in the docs](https://docs.skale.network/recipes)   | 
-| Starter   | starter-[branch-name] | Starter Projects to help kickstart your development                   |
-| Add       | add-[branch-name]     | Branches for adding new information                                   |
-| Update    | update-[branch-name]  | Branches for updating an existing recipe or starter **not for bugs**  |
-| Fix       | add-[branch-name]     | Branches for fixing bugs or issues                                    |
+### Install Dependencies
+```console
+yarn install
+```
 
-## Recipes
-| Name                  | Category                      | GitHub Link                                                                                          |
-| --------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
+### Create .env file
 
-No Recipes Yet
+```console
+cp .env.example .env
+```
 
-<br />
-<br />
+### Add Environment Variables
 
-## Request a Recipe
-Head over to the [GitHub](https://github.com/skalenetwork/recipes/issues) and create an issue with the title prefixed as [New Recipe] and add details into the issue.
+Add your private key to the .env file after the equals (=) sign.
+
+> Private Keys are from an Ethereum based wallet. The private key added to the .env should have sFUEL on the network specified in the .env under RPC_URL. The RPC_URL defaults to SKALE Chaos Testnet, you can change this to match your network.
 
 ## Contributing
 Checkout the [Contributing Guide](.github/CONTRIBUTING.md) for more info on how to contribute to this repository
