@@ -36,6 +36,8 @@ app.get("/claim/:address", async(req, res) => {
 });
 
 
-app.listen(8888, () => {
-	console.log("SKALE API Distributor Listening on ", 8888);
+const port = process.env.PORT || 8888;
+
+app.listen(port, () => {
+  console.log("SKALE API Distributor Listening on", port);
 });
